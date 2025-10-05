@@ -1,0 +1,50 @@
+.hollow-text {
+    --border: #454545;
+    letter-spacing: -0.075em;
+    width: 100%;
+    font-weight: 600;
+    color: var(--color-black-900);
+    text-shadow: -1px -1px 0 var(--border), 0 -1px 0 var(--border),
+        1px -1px 0 var(--border), 1px 0 0 var(--border), 1px 1px 0 var(--border),
+        0 1px 0 var(--border), -1px 1px 0 var(--border), -1px 0 0 var(--border);
+}
+
+/* --- MASKING UTILITIES --- */
+/* Utility class to fade content to transparent on the RIGHT side (e.g., horizontal scroll content) */
+.fade-to-r {
+    /* Use mask-image for cross-browser compatibility */
+    -webkit-mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 1) 50%,
+        /* Opaque until 50% */ rgba(0, 0, 0, 0) 100% /* Fades out to 100% */
+    );
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+
+    mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 1) 50%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+}
+
+/* Utility class to fade content to transparent on the BOTTOM side */
+.fade-to-b {
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 85%,
+        /* Opaque until 85% */ rgba(0, 0, 0, 0) 100% /* Fades out to 100% */
+    );
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+
+    mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 85%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+}
