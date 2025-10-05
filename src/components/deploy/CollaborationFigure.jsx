@@ -27,8 +27,8 @@ export const CollaborationFigure = () => {
                 <div className=" flex-1 relative">
                     <div className="absolute right-10 top-4">
                         {/* SVG: Acts as the Pointer/Cursor Shape (Filled with --bg-blue-accent) */}
-                        className="absolute -top-4 -right-4"
                         <svg
+                            className="absolute -top-4 -right-4"
                             fill="none"
                             height="18"
                             viewBox="0 0 17 18"
