@@ -1,12 +1,35 @@
-# React + Vite
+# Vercel Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **portfolio project** where I recreated the official **Vercel landing page** to practice advanced front-end skills and animation techniques.
 
-Currently, two official plugins are available:
+## 🚀 Demo
+👉 [Live Demo](https://vercel-landing-clone-mu.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Overview
+This project is a **pixel-perfect clone** of Vercel’s landing page, built from scratch to improve my React.js, Tailwind CSS, and Framer Motion skills.  
+It focuses on smooth transitions, responsive design, and a clean developer-centric aesthetic — staying true to Vercel’s minimal and modern style.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **React.js** – component-based UI
+- **Tailwind CSS** – for styling and responsiveness
+- **Framer Motion** – for subtle, elegant animations
+- **Vercel** – for seamless deployment and hosting
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- Smooth hover effects and animations
+- Responsive layout for all screen sizes
+- Component-based architecture
+- Attention to detail in design and motion
+
+## 🎯 Purpose
+This project is part of my **personal portfolio**, showcasing my front-end development skills and my ability to replicate complex UIs with modern tools and clean code.
+
+---
+
+### 🧑‍💻 Author
+**Anass Eddig**  
+Full-Stack Web Developer  
+
+---
+
+> ⚠️ Disclaimer: This project is **not affiliated with or endorsed by Vercel**. It was built purely for educational and portfolio purposes.
